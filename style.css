@@ -1,0 +1,87 @@
+/* Reset default */
+*  {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem
+}
+
+/* Navigation */
+nav {
+   background: #34495e;
+   text-align: center;
+   padding: 0.8rem;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f1c40f;
+}
+
+/* Container */
+main {
+    padding: 20px;
+}
+
+/* Produk Grid */
+.produk {
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box shadow: 0 2px 6px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background:  #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Responsif untuk HP */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 24px;
+    }
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+
