@@ -9,7 +9,7 @@ body {
 }
 
 header, footer {
-    background: #6b4226;
+    background: #FFFACD;
     color: white;
     text-align: center;
     padding: 1rem;
@@ -46,7 +46,7 @@ header, footer {
 
 .produk-item a {
     text-decoration: none;
-    color: #6b4226;
+    color: #FFFACD;
     font-weight: bold;
 }
 
@@ -127,4 +127,3 @@ footer p {
     font-size: 0.9rem;
 }
  
-
